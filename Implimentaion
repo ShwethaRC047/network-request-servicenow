@@ -1,0 +1,5 @@
+The implementation of this project was done using ServiceNow. A catalog item named “Network Request” was created in the Service Catalog. Required variables such as request type, access level, device, and justification were added. Choices like VPN, Firewall, and Access were configured.
+
+A workflow was developed using Flow Designer to automate the process. The flow triggers when a request is submitted, sends it for approval to the Approvers group, and upon approval, automatically creates a task assigned to the Network Team.
+
+The solution was tested in the Service Portal by submitting requests and verifying approval, task creation, and completion. This ensures smooth and automated handling of network requests.
